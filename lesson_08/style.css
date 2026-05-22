@@ -5,5 +5,126 @@ img{
 }
 
 body{
-    background-color:beige;
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-family: 'Ribeye Marrow', cursive;
+    font-size: 60px;
+    color: white;
+    margin: 0;
+}
+
+h3{
+    font-family: 'Ribeye Marrow', cursive;
+    font-size: 30px;
+    color: white;
+}
+
+.subtitle{
+    font-size: 20px;
+    color: white;
+}
+
+.flavors{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+
+}
+.flavor{
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+    margin-top: 80px;
+    border-radius: 17px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 25px -5px, rgba(0, 0, 0, 0.09) 0px 10px 10px -5px;
+    transition: 0.3s;
+    color: black;
+
+}
+.flavor:hover{
+    box-shadow: none;
+}
+
+.icecream-icon{
+    width: 120px;
+    height: auto;
+    margin-top: -70px;
+    transition: 0.1s;
+}
+
+.main2{
+    margin-top: 30px;
+}
+
+.content{
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.description, li{
+    font-size: 20px;
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
+}
+
+.content-title{
+    color: black;
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content-image{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    margin-top: -90px;
+    padding-left: 500px;
+}
+.cover-image {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-radius: 15px;
+}
+
+.back-button{
+    padding: 10px;
+    border: white 2px solid;
+    border-radius: 5px;
+    margin: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 70px;
+}
+
+.back-button:hover{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
 }
